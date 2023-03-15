@@ -155,6 +155,16 @@
                 android:rotation="-45"/>
         </FrameLayout>
 
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="248dp"
+            android:layout_height="38dp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/share_button_VGL2"
+            app:layout_constraintStart_toStartOf="@+id/share_button_VGL1"
+            app:layout_constraintTop_toTopOf="@+id/share_button_GL" />
+
         <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:id="@+id/bottomSheet"
             android:layout_width="match_parent"
