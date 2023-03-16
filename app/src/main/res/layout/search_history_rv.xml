@@ -25,6 +25,7 @@
         android:id="@+id/shorten_link"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_regular"
         android:text="@string/shorten_link"
         android:textColor="@color/purple_700"
         app:layout_constraintStart_toStartOf="parent"
